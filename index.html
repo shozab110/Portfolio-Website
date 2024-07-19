@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Shozab Imdad - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(19, 19, 58);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(170, 107, 228);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(19, 19, 58);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(36, 36, 87);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .textGray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 82vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .verticle {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .imageTop {
+            width: 23px;
+            position: relative;
+            top: -28px;
+            left: -10px;
+        }
+
+        .verticleTitle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .verticleDesc {
+            position: relative;
+            top: 97px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer{
+            background-color: rgb(19, 19, 58);
+            height: 200px;
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shozab's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My Name is <span class="purple">Shozab</span>
+                <div>and I am a Passionate
+                    <div><span id="element"></span></div>
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Gthub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="textGray">What I have done so far.</span>
+            <h1>Personal Projects</h1>
+
+            <div class="box">
+                <div class="verticle">
+                    <img class="imageTop" src="ML.png" alt="">
+                    <div class="verticleTitle">
+                        American Sign Language Recognition
+                    </div>
+                    <div class="verticleDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        deserunt laborum provident nihil, quos, numquam dolorem ullam animi unde sint adipisci totam
+                        rerum!</div>
+                </div>
+                <div class="verticle">
+                    <img class="imageTop" src="ML.png" alt="">
+                    <div class="verticleTitle">
+                        Sentiment Analysis using Face Expressions
+                    </div>
+                    <div class="verticleDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        deserunt laborum provident nihil, quos, numquam dolorem ullam animi unde sint adipisci totam
+                        rerum!</div>
+                </div>
+                <div class="verticle">
+                    <img class="imageTop" src="ML.png" alt="">
+                    <div class="verticleTitle">
+                        Brain Tumor Detection System
+                    </div>
+                    <div class="verticleDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        deserunt laborum provident nihil, quos, numquam dolorem ullam animi unde sint adipisci totam
+                        rerum!</div>
+                </div>
+                <div class="verticle">
+                    <img class="imageTop" src="ML.png" alt="">
+                    <div class="verticleTitle">
+                        Campus Management System
+                    </div>
+                    <div class="verticleDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                        deserunt laborum provident nihil, quos, numquam dolorem ullam animi unde sint adipisci totam
+                        rerum!</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Shozab's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'ML Engineer.', 'AI Engineer.', 'Data Scientist.', 'Mobile App Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
